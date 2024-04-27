@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none; 
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .custom-cursor {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    pointer-events: none; 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7)); 
+  }
+  
